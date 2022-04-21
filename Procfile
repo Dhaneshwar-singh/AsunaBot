@@ -1,1 +1,1 @@
-worker: python3 -m Asunabot
+worker: python3 -m AsunaBot
