@@ -28,58 +28,56 @@
         },
         "SESSION_STRING": {
             "description": "Need for Userbot Module So u can execute .sh & .l cmd",
-            "required": true
+            "required": false
         },
-        "SUDO_USERS_ID": {
+        "SUDO_USER_ID": {
             "description": "Sudo users have full access to everythin, don't trust anyone... ex:- 123456 654311 123456",
             "required": true
         },
+        
         "LOG_GROUP_ID": {
             "description": "For logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
             "required": true
         },
-        "GBAN_LOG_GROUP_ID": {
+        "FERNET_ENCRYPTION_KEY": {
             "description": "gban logs. ex: '-123456'",
+            "value":"iKMq0WZMnJKjMQxZWKtv-cplMuF_LoyshXj0XbTGGWM=",
             "required": true
         },
         "WELCOME_DELAY_KICK_SEC": {
             "value": "300",
             "required": true
         },
-        "MONGO_URL": {
+        "MONGO_DB_URI": {
             "description": "Get From Here. https://telegra.ph/How-To-get-Mongodb-URI-04-06",
             "required": true
         },
-        "ARQ_API_URL": {
+        "ARQ_API_BASE_URL": {
             "description": "For Music Downloading And Many More Things... Don't change this value",
-            "value": "https://arq.hamker.in",
+            "value": "https://thearq.tech",
             "required": true
         },
         "MESSAGE_DUMP_CHAT": {
             "description": "Chat_id of the group where useless things will go",
             "required": true
         },
-        "ARQ_API_KEY": {
-            "description": "Get this from @ARQRobot.",
-            "required": true
-        },
+       
         "LOG_MENTIONS": {
             "description": "Fill 1 to turn this on, or 0 to turn it off.",
-            "required": true
+            "required": false
         },
-        "USERBOT_PREFIX": {
+        "OWNER_ID": {
             "description": "Userbot command prefix, Leave it empty if you don't know what that is.",
             "required": false
         },
-        "RSS_DELAY": {
+        "MAIN_CHATS": {
             "description": "Delay in which RSS will send updates in chat",
-            "value": "300",
-            "required": true
+            "required": false
         },
-        "PM_PERMIT":{
+        "SUDO_CHAT_ID":{
             "description": "Pm permit, fill 1 to enable or 0 to disable it.",
             "value": "1",
-            "required": true
+            "required": false
         }
     }
 }
