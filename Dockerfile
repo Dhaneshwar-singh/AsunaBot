@@ -1,7 +1,7 @@
-FROM AsunaBot/python:latest
+FROM ab/python:latest
 
-WORKDIR /AsunaBot
-RUN chmod 777 /AsunaBot
+WORKDIR /ab
+RUN chmod 777 /ab
 
 # Installing Requirements
 RUN pip3 install -U pip
